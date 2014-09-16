@@ -1,0 +1,49 @@
+{
+  "name": "gl-texture2d-display",
+  "version": "1.0.0",
+  "description": "Displays a given gl-texture2d on your screen. Useful for debugging.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy example.js --open"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "a-big-triangle": "^1.0.0",
+    "glslify": "^1.6.0",
+    "weakmap": "0.0.6"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^5.11.2",
+    "canvas-fit": "^1.2.0",
+    "gl-context": "^0.1.1",
+    "gl-texture2d": "^2.0.4",
+    "lena": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/gl-texture2d-display.git"
+  },
+  "keywords": [
+    "gl",
+    "webgl",
+    "stackgl",
+    "texture",
+    "2d",
+    "display"
+  ],
+  "homepage": "https://github.com/hughsk/gl-texture2d-display",
+  "bugs": {
+    "url": "https://github.com/hughsk/gl-texture2d-display/issues"
+  }
+}
